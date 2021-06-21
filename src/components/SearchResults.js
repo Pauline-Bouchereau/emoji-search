@@ -8,7 +8,7 @@ import EmojiDiv from "./EmojiDiv";
 import emojiList from "../assets/emoji-list.json";
 
 const SearchResult = ({ search }) => {
-  const [emojiResults, setEmojiResults] = useState(emojiList.slice(0, 20));
+  const [emojiResults, setEmojiResults] = useState([]);
 
   useEffect(() => {
     // Modify results every time the search changes
@@ -26,6 +26,9 @@ const SearchResult = ({ search }) => {
         }
       }
       setEmojiResults(newEmojiResults);
+    } else {
+      // If search is empty, display the first 20 emojis
+      setEmojiResults(emojiList.slice(0, 20));
     }
   }, [search]);
 
