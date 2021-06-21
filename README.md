@@ -4,7 +4,7 @@
 
 👉 Netlify Link to see the live version [HERE](https://emoji-search-pb.netlify.app/)
 
-<img width="1000" alt="Capture d’écran 2021-06-21 à 12 51 28" src="https://user-images.githubusercontent.com/80970440/122750908-687b4f00-d28f-11eb-9a03-f2424e69f0b8.png">
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/80970440/122775431-68d51380-d2aa-11eb-9ef5-c081b9b897e6.gif)
 
 _Made in 2021 @ Le Reacteur_
 
