@@ -106,6 +106,7 @@ input:focus {
 .results > div span {
   color: var(--dark-grey);
   font-size: 14px;
+  cursor: pointer;
 }
 
 /* ------------------- */
