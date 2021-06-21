@@ -1,1 +1,147 @@
-/* Other rules */
+/* ------------------- */
+/* Global Rules */
+/* ------------------- */
+
+:root {
+  --green: #9afecc;
+  --light-grey: #f5f4f4;
+  --dark-grey: #2d2f30;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-grey);
+  font-family: "Josefin Sans", "Times New Roman", Times, serif;
+}
+
+/* Titles */
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+/* ------------------- */
+/* Header */
+/* ------------------- */
+
+header {
+  height: 80px;
+  border-bottom: solid 1px var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* ------------------- */
+/* Main */
+/* ------------------- */
+
+main {
+  min-height: calc(100vh - 165px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Search Bar */
+input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 40px;
+  font-family: "Josefin Sans", "Times New Roman", Times, serif;
+  color: var(--dark-grey);
+  font-size: 18px;
+}
+
+input:focus {
+  outline: solid 1px var(--green);
+}
+
+::placeholder {
+  font-family: "Josefin Sans", "Times New Roman", Times, serif;
+  color: var(--dark-grey);
+  opacity: 0.5;
+}
+
+/* Emoji results */
+
+.results {
+  margin: 40px 0;
+}
+
+/* Emoji Div */
+.results > div {
+  display: flex;
+  background-color: var(--light-grey);
+  width: 600px;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.results > div > div {
+  display: flex;
+}
+
+.results > div:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.results > div p {
+  font-size: 22px;
+  color: var(--dark-grey);
+}
+
+.results > div p:first-child {
+  margin-right: 10px;
+}
+
+.results > div span {
+  color: var(--dark-grey);
+  font-size: 14px;
+}
+
+/* ------------------- */
+/* Footer */
+/* ------------------- */
+footer {
+  height: 80px;
+  border-top: solid 1px var(--green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+footer img {
+  width: 35px;
+  margin-right: 15px;
+}
+
+footer img:hover {
+  width: 40px;
+}
+
+footer a,
+footer p {
+  color: inherit;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+footer a {
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: var(--green);
+}
