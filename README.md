@@ -30,7 +30,7 @@ Search Bar || Modification of results according to the search || Copy on clipboa
 #### Clone this repository :
 
 ```javascript
-git clone https://github.com/lereacteur/react-native-airbnb.git
+git clone https://github.com/Pauline-Bouchereau/emoji-search
 cd react-native-airbnb
 ```
 
