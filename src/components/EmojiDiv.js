@@ -13,8 +13,22 @@ const EmojiDiv = ({ emoji }) => {
       }}
     >
       <div>
-        <p>{emoji.symbol}</p>
-        <p>{emoji.title}</p>
+        <CopyToClipboard
+          text={emoji.symbol}
+          onCopy={() => {
+            setEmojiCopied(true);
+          }}
+        >
+          <p>{emoji.symbol}</p>
+        </CopyToClipboard>
+        <CopyToClipboard
+          text={emoji.symbol}
+          onCopy={() => {
+            setEmojiCopied(true);
+          }}
+        >
+          <p>{emoji.title}</p>
+        </CopyToClipboard>
       </div>
       {!emojiCopied ? (
         <CopyToClipboard

@@ -97,6 +97,7 @@ input:focus {
 .results > div p {
   font-size: 22px;
   color: var(--dark-grey);
+  cursor: pointer;
 }
 
 .results > div p:first-child {
