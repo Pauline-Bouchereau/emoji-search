@@ -31,7 +31,7 @@ Search Bar || Modification of results according to the search || Copy on clipboa
 
 ```javascript
 git clone https://github.com/Pauline-Bouchereau/emoji-search
-cd react-native-airbnb
+cd emoji-search
 ```
 
 #### Install packages :
