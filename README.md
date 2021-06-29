@@ -17,13 +17,13 @@ Search Bar || Modification of results according to the search || Copy on clipboa
 ### 🔧 Stack
 
 ✔️ JavaScript  
-✔️ React.Js  
+✔️ React.JS  
 ✔️ HTML 5  
 ✔️ CSS 3
 
 ### 🪛 Package
 
-✔️ React Copy To CLipboard
+✔️ React Copy To Clipboard
 
 ### 🚀 Running the project
 
@@ -37,7 +37,7 @@ cd emoji-search
 #### Install packages :
 
 ```javascript
-yarn;
+yarn
 ```
 
 #### When installation is complete :
